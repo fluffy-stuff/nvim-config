@@ -12,6 +12,8 @@ opt.smartcase = true
 
 opt.laststatus = 2
 
+
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 map('i', 'jj', '<ESC>', opts)
+map('n', 'tt', '<CMD>terminal<CR>', opts)
