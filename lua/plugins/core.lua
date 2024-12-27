@@ -35,7 +35,7 @@ return {
   {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
-    config = {'plugins/config/lualine.lua'}
+    opts = {'plugins/config/lualine.lua'}
   },
   {
     'github/copilot.vim',
